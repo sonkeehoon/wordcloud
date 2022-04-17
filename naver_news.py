@@ -20,7 +20,7 @@ for i in range(4):
     # +lck3
     for lck in lcks:
         str_n=str_n+lck.get_text()  
-        
+     
 with open ("bigdata.hwp","w",encoding="utf8") as f:
     f.write(str_n)
     
